@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { Link as ScrollLink } from "react-scroll";
 
 const Navbar = () => {
   return (
@@ -13,7 +12,7 @@ const Navbar = () => {
       <div className="flex items-center space-x-4">
         <Link href="/">Home</Link>
         <Link href="About">About</Link>
-        <Link href="/features">Features</Link>
+        <Link href="/Features">Features</Link>
         <Link href="/plans">Plans</Link>
         <Link href="/contact">Contact</Link>
       </div>
